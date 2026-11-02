@@ -12,10 +12,10 @@ def main():
     
     #-----------------------------Program Variable Initialization----------------------------#
     # Set up some data to describe a small circle and its color
-    RED = pygame.Color(255,0,0)
-    GREEN = pygame.Color(0,255,0)
-    BLUE = pygame.Color(0,0,255)
-    LIGHT_PURPLE = pygame.Color('#ada1e3')
+    RED = pygame.Color(255,0,0) #RGB is accepted
+    GREEN = pygame.Color('#00FF00') #Hex Codes Accepted
+    BLUE = pygame.Color("blue") #Predefined colors accepted 
+    LIGHT_PURPLE = pygame.Color('mediumpurple1') #There are a LOT! See https://www.pygame.org/docs/ref/color_list.html
     
     circleColor = LIGHT_PURPLE        # A color is a mix of (Red, Green, Blue)
 
