@@ -35,6 +35,11 @@ def main():
         
         #Put the image on the mainSurface
         mainSurface.blit(renderedText, (10,0))
+        
+        #Do it again with text that changes, need to use f strings to convert a non text value into text
+        renderedText = font.render(f"{pygame.mouse.get_pos()}", 1, pygame.Color("coral"))
+        #Put the image on the mainSurface
+        mainSurface.blit(renderedText, (10,40))
 
         pygame.display.flip()  #Display everything
      
